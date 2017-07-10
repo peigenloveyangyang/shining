@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/reset2.css"/>
+	<style type="text/css">
+	    /*头部*/
+		#head{
+			width: 100%;
+			height: 67px;
+			background-color: #1b1b1b;
+		}
+		.headM{
+			max-width: 1127px;
+			height: 67px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.headM>img:nth-child(1){
+			margin-top: 16px;
+		}
+		#mulu{
+			float: right;
+			padding-top: 20px;
+			padding-right: 30px;
+			display: none;
+			width: 30px;
+		}
+		.headS{
+			width: 640px;
+			height: 67px;
+			float: right;
+			display: block;
+		}
+		.headS ul{
+			overflow: hidden;
+		}
+		.headS ul li{
+			float: left;
+			margin-right: 30px;
+			line-height: 67px;
+			
+		}
+		.headS a{
+			display: inline-block;
+			color: #a8a8a8;
+			font-size: 16px;
+			vertical-align: middle;
+			/*width: 100%;*/
+			height: 16px;
+			line-height: 16px;
+			padding: 5px 10px;
+			text-align: center;
+		}
+		.headS a:hover{
+			border: 1px solid white;
+			color: white;
+			border-radius: 8px;
+		}
+		.headS ul li:nth-child(5)>a{
+			border: 1px solid white;
+			color: white;
+			border-radius: 8px;
+		}
+		/*内容*/
+		#content{
+		    width: 100%;
+		}
+		.con1{
+		   width: 100%;
+		   height:655px ;
+		   background-color: #e5e5e5;
+		   position: relative;
+		}
+		.con2{
+		   width: 100%;
+		   height:655px ;
+		   background-color: white;
+		   position: relative;
+		}
+		.con3{
+		   width: 100%;
+		   height:655px ;
+		   background-color: #e5e5e5;
+		   position: relative;
+		}
+		.con4{
+		   width: 100%;
+		   height:655px ;
+		   background-color: white;
+		   position: relative;
+		}
+		.con5{
+		   width: 100%;
+		   height:655px ;
+		   background-color: #e5e5e5;
+		   position: relative;
+		}
+		.con1s{
+		    width: 80%;
+		    height: 100%;
+		    margin-left: 10%;
+		    position: relative;
+		}
+		.con1sL{
+		    width: 100%;
+		    height: 470px;
+		    position: absolute;
+		    left: 0;
+		    top: 15%;
+		    z-index: 10;
+		}
+		.con1sL div{
+		    border: 1px solid black;
+		    border-radius: 5px;
+		    font-size: 1.5em;
+		    text-align: center;
+		    width: 1.3em;
+		    height: 1.3em;
+		    line-height: 1.3em;
+		    position: absolute;
+		    left: 5%;
+		    top: 0;
+		    color:  #616161;
+		}
+		.con1sL h3{
+		    font-size: 1em;
+		     position: absolute;
+		     left: 12%;
+		     top: 0;
+		     font-size: 1.3em;
+		     color: #616161;
+		}
+		.con1sL span{
+		    display: inline-block;
+		    width: 30%;
+		    position: absolute;
+		    left: 5%;
+		    top: 50px;
+		    font-size: 1.2em;
+		    
+		}
+		#ta1{
+		    position: absolute;
+		    right: -41px;
+		    bottom: 0;
+		    width: 350px;
+		}
+		.con1sLs img:nth-child(1){
+		   width: 10%;
+		   position: absolute;
+		   top: 250px;
+		   left: 5%;
+		   z-index: 10;
+		}
+		.con1sLs img:nth-child(2){
+		   width: 10%;
+		   position: absolute;
+		   top: 250px;
+		   left: 15%;
+		   z-index: 10;
+		}
+		.con1sLs img:nth-child(3){
+		   width: 10%;
+		   position: absolute;
+		   top: 250px;
+		   left: 25%;
+		   z-index: 10;
+		}
+		/*2*/
+		.con2s{
+		    width: 80%;
+		    height: 100%;
+		    margin-left: 10%;
+		    position: relative;
+		}
+		.con2sL{
+		    width: 100%;
+		    height: 470px;
+		    position: absolute;
+		    left: 0;
+		    top: 15%;
+		    z-index: 10;
+		}
+		.con2sL div{
+		    border: 1px solid black;
+		    border-radius: 5px;
+		    font-size: 1.5em;
+		    text-align: center;
+		    width: 1.3em;
+		    height: 1.3em;
+		    line-height: 1.3em;
+		    position: absolute;
+		    left: 5%;
+		    top: 0;
+		    color:  #616161;
+		}
+		.con2sL h3{
+		    font-size: 1em;
+		     position: absolute;
+		     left: 12%;
+		     top: 0;
+		     font-size: 1.3em;
+		     color: #616161;
+		}
+		.con2sL span{
+		    display: inline-block;
+		    width: 30%;
+		    position: absolute;
+		    left: 5%;
+		    top: 50px;
+		    font-size: 1.2em;
+		    
+		}
+		#ta2{
+		    position: absolute;
+		    right: 5px;
+		    top: 0;
+		    width: 350px;
+		}
+		.con2sLs img:nth-child(1){
+		   width: 15%;
+		   position: absolute;
+		   top: 250px;
+		   left: 5%;
+		   z-index: 10;
+		}
+		.con2sLs img:nth-child(2){
+		   width: 15%;
+		   position: absolute;
+		   top: 250px;
+		   left: 22%;
+		   z-index: 10;
+		}
+		/*3*/
+		.con3s{
+		    width: 80%;
+		    height: 100%;
+		    margin-left: 10%;
+		    position: relative;
+		}
+		.con3sL{
+		    width: 100%;
+		    height: 470px;
+		    position: absolute;
+		    left: 40%;
+		    top: 15%;
+		    z-index: 10;
+		}
+		.con3sL div{
+		    border: 1px solid black;
+		    border-radius: 5px;
+		    font-size: 1.5em;
+		    text-align: center;
+		    width: 1.3em;
+		    height: 1.3em;
+		    line-height: 1.3em;
+		    position: absolute;
+		    left: 5%;
+		    top: 0;
+		    color:  #616161;
+		}
+		.con3sL h3{
+		    font-size: 1em;
+		     position: absolute;
+		     left: 12%;
+		     top: 0;
+		     font-size: 1.3em;
+		     color: #616161;
+		}
+		.con3sL span{
+		    display: inline-block;
+		    width: 30%;
+		    position: absolute;
+		    left: 5%;
+		    top: 50px;
+		    font-size: 1.2em;
+		    
+		}
+		#ta3{
+		    position: absolute;
+		    left: 5px;
+		    bottom:0;
+		    width: 350px;
+		}
+		.con3sLs img:nth-child(1){
+		   width: 15%;
+		   position: absolute;
+		   top: 250px;
+		   left: 45%;
+		   z-index: 10;
+		}
+		.con3sLs img:nth-child(2){
+		   width: 15%;
+		   position: absolute;
+		   top: 250px;
+		   left: 62%;
+		   z-index: 10;
+		}
+		/*4*/
+		.con4sL{
+		    width: 100%;
+		    height: 470px;
+		    position: absolute;
+		    left: 0;
+		    top: 15%;
+		    z-index: 10;
+		}
+		.con4sL div{
+		    border: 1px solid black;
+		    border-radius: 5px;
+		    font-size: 1.5em;
+		    text-align: center;
+		    width: 1.3em;
+		    height: 1.3em;
+		    line-height: 1.3em;
+		    position: absolute;
+		    left: 5%;
+		    top: 0;
+		    color:  #616161;
+		}
+		.con4sL h3{
+		    font-size: 1em;
+		     position: absolute;
+		     left: 12%;
+		     top: 0;
+		     font-size: 1.3em;
+		     color: #616161;
+		}
+		.con4sL span{
+		    display: inline-block;
+		    width: 30%;
+		    position: absolute;
+		    left: 5%;
+		    top: 50px;
+		    font-size: 1.2em;
+		    
+		}
+		#ta4{
+		    position: absolute;
+		    left: 50px;
+		    top: 0;
+		    width: 350px;
+		}
+		#ta5{
+		    position: absolute;
+		    right: -41px;
+		    bottom: 0;
+		    width: 350px;
+		}
+		.con4sLs img:nth-child(1){
+		   width: 15%;
+		   position: absolute;
+		   top: 40%;
+		   left: 5%;
+		   z-index: 10;
+		}
+		.con4sLs img:nth-child(2){
+		   width: 15%;
+		   position: absolute;
+		   top: 60%;
+		   left: 5%;
+		   z-index: 10;
+		}
+		/*5*/
+		.con5s{
+		    width: 80%;
+		    height: 100%;
+		    margin-left: 10%;
+		    position: relative;
+		}
+		.con5sL{
+		    width: 100%;
+		    height: 470px;
+		    position: absolute;
+		    left: 0;
+		    top: 15%;
+		    z-index: 10;
+		}
+		.con5sL div{
+		    border: 1px solid black;
+		    border-radius: 5px;
+		    font-size: 1.5em;
+		    text-align: center;
+		    width: 1.3em;
+		    height: 1.3em;
+		    line-height: 1.3em;
+		    position: absolute;
+		    left: 5%;
+		    top: 0;
+		    color:  #616161;
+		}
+		.con5sL h3{
+		    font-size: 1em;
+		     position: absolute;
+		     left: 12%;
+		     top: 0;
+		     font-size: 1.3em;
+		     color: #616161;
+		}
+		.con5sL span{
+		    display: inline-block;
+		    width: 30%;
+		    position: absolute;
+		    left: 5%;
+		    top: 50px;
+		    font-size: 1.2em;
+		    
+		}
+		#ta6{
+		    position: absolute;
+		    right: 8px;
+		    top: 0;
+		    width: 350px;
+		}
+        /*底部*/
+		#foot{
+			width: 100%;
+			height: 128px;
+			margin-top: 100px;
+			overflow: hidden;
+		}
+		.foot1{
+			width: 100%;
+			text-align: center;
+		}
+		.foot1 img{
+			width: 25px;
+		}
+		.foot2{
+			width: 100%;
+			text-align: center;
+			margin-top: 15px;
+		}
+		.foot2 img{
+			width: 25px;
+			padding:0 5px;
+		}
+        p{
+			width: 100%;
+			color: #808080;
+			font-size: 10px;
+			text-align: center;
+			margin-top: 15px;
+		}
+		
+    /*媒体查询*/
+	@media screen and (max-width:980px) and (min-width:640px) {
+			.headS{
+				display: none;
+			}
+			#mulu{
+				display:block;
+		    }
+		 }
+		 
+    @media screen and (max-width:640px) and (min-width:320px) {
+				.headS{
+					display: none;
+				}
+				#mulu{
+					display:block;
+			    }
+		    }
+		    
+    </style>
+	<body>
+		<!--头部-->
+		<div id="head">
+			<div class="headM">
+				<img src="img/shininglogo.png" alt="" />
+				<div class="headS">
+					<ul>
+						<li><a href="Home.html">Home</a></li>
+						<li><a href="About.html">About</a></li>
+						<li><a href="Rendering.html">Rendering</a></li>
+						<li><a href="3D Animation.html">3D Animation</a></li>
+						<li><a href="Bim.html">Bim</a></li>
+						<li><a href="Contact.html">Contact</a></li>
+					</ul>			
+				</div>
+				<img id="mulu" src="img/目录.png" alt="" />
+			</div>
+		</div>
+		<!--内容-->
+		<div id="content">
+		    <div class="con1">
+		        <div class="con1s">
+		            <div class="con1sL">
+		                <div>1</div>
+		                <h3>MODEL COMPLETION</h3>
+		                <span>Establishing and creating the visible and multi-dimension Architecture, Structural and MEP</span> 
+		            </div>
+		             <div class="con1sLs">
+		                    <img src="img/BIM-p1-1.png" alt="" />
+			                <img src="img/BIM-p1-2.png" alt="" />
+			                <img src="img/BIM-p1-3.png" alt="" />
+		               </div>
+		           
+		        </div>
+		         <img id="ta1" src="img/塔1上.png" alt="" />
+		    </div>
+		    <div class="con2">
+		         <div class="con2s">
+		            <div class="con2sL">
+		                <div>2</div>
+		                <h3>CLASH DETECTION</h3>
+		                <span>Completing the clash detection among various design parties,engineers and even different organisations in con struction drawings.</span> 
+		            </div>
+		             <div class="con2sLs">
+		                    <img src="img/p1.jpg" alt="" />
+			                <img src="img/p2.jpg" alt="" />
+		               </div>
+		            
+		        </div>
+		        <img id="ta2" src="img/塔1下.png" alt="" />
+		    </div>
+		    <div class="con3">
+			        <div class="con3s">
+			            <div class="con3sL">
+			                <div>3</div>
+			                <h3>MEP INTEGRATION</h3>
+			                <span>Profoundly completing the pipeline integration, design coordination and intra-organisational cooperation between Plumbing, HVAC and Electrical engineering.</span> 
+			            </div>
+			             <div class="con3sLs">
+			                    <img src="img/p3.jpg" alt="" />
+				                <img src="img/p4.jpg" alt="" />
+			               </div>
+			            
+			        </div>
+			        <img id="ta3" src="img/塔2上.png" alt="" />
+		    </div>
+		    <div class="con4">
+		        <div class="con4s">
+		            <div class="con4sL">
+		                <div>4</div>
+		                <h3>CURTAIN WALL REMEDYING</h3>
+		                <span>Creating the abnormity wall based on parametric design tools, and completing detailed curtain wall nodes visibly.</span> 
+		            </div>
+		             <div class="con4sLs">
+		                    <img src="img/p5.jpg" alt="" />
+			                <img src="img/p6.jpg" alt="" />
+		               </div>
+		        </div>
+		         <img id="ta4" src="img/塔2下.png" alt="" />
+		         <img id="ta5" src="img/塔3上.png" alt="" />
+		    </div>
+		    <div class="con5">
+		    <div class="con5s">
+		            <div class="con5sL">
+		                <div>5</div>
+		                <h3>BIM CONSULTING</h3>
+		                <span>To help you to precisely know what is BIM? How BIM use? When and who is suitably to implement BIM? </span> 
+		            </div>
+		        </div>
+		         <img id="ta6" src="img/塔3下.png" alt="" />
+		    </div>
+		</div>
+		
+		<!--底部-->
+		<div id="foot">
+			<div class="foot1">
+				<img src="img/mail.jpg" alt="" />
+				<!--<img src="img/Z-1.jpg" alt="" />-->
+			</div>
+			<div class="foot2">
+				<img src="img/facebook.jpg" alt="" />
+				<!--<img src="img/9k=.jpg" alt="" />-->
+				<img src="img/youtube.jpg" alt="" />
+				<!--<img src="img/Z-2.jpg" alt="" />-->
+				<img src="img/linkedln.jpg" alt="" />
+				<!--<img src="img/2Q==.jpg" alt="" />-->
+				<img src="img/twitter.jpg" alt="" />
+				<!--<img src="img/Z-3.jpg" alt="" />-->
+			</div>
+			<p>Copyright © 1998-2015 shining Group</p>
+			<script src="js/jquery-3.2.1.js" type="text/javascript"></script>
+			<script type="text/javascript">
+
+			</script>
+		</div>
+	</body>
+</html>
